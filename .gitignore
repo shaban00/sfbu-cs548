@@ -1,0 +1,5 @@
+api/node_modules/
+api/certs/
+api/.env
+api/.env.*
+app/node_modules/

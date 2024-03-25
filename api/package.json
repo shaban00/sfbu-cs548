@@ -1,0 +1,23 @@
+{
+  "name": "sfbu-expressjs-app",
+  "version": "1.0.0",
+  "description": "SFBU Backend Application",
+  "main": "app.js",
+  "author": "Shaban Mohammedsaani Hassan (shaban00)",
+  "license": "MIT",
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "dependencies": {
+    "axios": "^1.6.8",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.1",
+    "luxon": "^3.4.4",
+    "winston": "^3.13.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  },
+  "type": "module"
+}
