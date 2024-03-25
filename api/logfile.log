@@ -22,3 +22,42 @@
 {"level":"error","message":"Error fetching GitHub data:"}
 {"level":"info","message":"GET /github"}
 {"level":"info","message":"GET /github"}
+{"level":"info","message":"GET /github"}
+{"level":"error","message":"Error fetching GitHub data:"}
+{"level":"info","message":"GET /github"}
+{"level":"error","message":"Error fetching GitHub data:"}
+{"level":"info","message":"GET /github"}
+{"level":"info","message":"POST /github"}
+{"level":"info","message":"POST /github"}
+{"level":"info","message":"POST /github"}
+{"level":"info","message":"POST /github"}
+{"level":"info","message":"POST /github"}
+{"level":"info","message":"request method: POST request path: /github"}
+{"level":"info","message":"method: POST path: /github"}
+{"level":"info","message":"Method: POST Path: /github IP: ::1"}
+{"level":"info","message":"method: POST path: /github ip: ::1"}
+{"level":"info","message":"method: POST url: /github ip: ::1"}
+{"level":"info","message":"method: POST url: /github ip: ::ffff:127.0.0.1"}
+{"level":"info","message":"method: POST url: /github ip: ::ffff:127.0.0.1"}
+{"level":"info","message":"method: POST url: /github ip: ::ffff:127.0.0.1"}
+{"level":"info","message":"method: POST url: /github ip: ::ffff:127.0.0.1"}
+{"level":"info","message":"method: POST url: /github ip: ::ffff:127.0.0.1"}
+{"level":"info","message":"method: POST url: /github ip: ::ffff:127.0.0.1"}
+{"level":"info","message":"method: POST url: /github ip: ::1"}
+{"level":"info","message":"method: POST url: /github ip: ::ffff:127.0.0.1"}
+{"level":"info","message":"method: POST url: /github ip: ::ffff:127.0.0.1"}
+{"level":"info","message":"method: POST url: /github ip: ::ffff:127.0.0.1"}
+{"level":"info","message":"method: POST url: /github ip: ::ffff:127.0.0.1"}
+{"level":"info","message":"method: POST url: /github ip: ::ffff:127.0.0.1"}
+{"level":"info","message":"method: POST url: /github ip: ::ffff:127.0.0.1"}
+{"level":"info","message":"method: POST url: /github ip: ::ffff:127.0.0.1"}
+{"level":"info","message":"method: POST url: /github ip: ::ffff:127.0.0.1"}
+{"level":"info","message":"method: POST url: /github ip: ::ffff:127.0.0.1"}
+{"level":"info","message":"method: POST url: /github ip: ::ffff:127.0.0.1"}
+{"level":"info","message":"method: POST url: /github ip: ::ffff:127.0.0.1"}
+{"level":"info","message":"method: POST url: /github ip: ::ffff:127.0.0.1"}
+{"level":"info","message":"method: POST url: /github ip: ::ffff:127.0.0.1"}
+{"level":"info","message":"method: POST url: /github ip: ::ffff:127.0.0.1"}
+{"level":"info","message":"method: POST url: /github ip: ::ffff:127.0.0.1"}
+{"level":"info","message":"method: POST url: /github ip: ::ffff:127.0.0.1"}
+{"level":"info","message":"method: POST url: /github ip: ::ffff:127.0.0.1"}

@@ -5,7 +5,7 @@ import { GITHUB_TOKEN } from "../config/index.js";
 const getAllInfo = async (req, res) => {
   try {
     const response = await axios.get(
-      "https://api.github.com/repos/shaban00/sfbu-expressjs-app/contents/data/students.json",
+      "https://api.github.com/repos/shaban00/sfbu-cs548/contents/api/data/github_settings.json",
       {
         headers: {
           Accept: "application/vnd.github.raw+json",
@@ -17,7 +17,7 @@ const getAllInfo = async (req, res) => {
     const { data } = response;
 
     return res.status(200).json({
-      data,
+      ...data,
     });
   } catch (error) {
     logger.error("Error fetching GitHub data:", error.message);
@@ -26,9 +26,10 @@ const getAllInfo = async (req, res) => {
 };
 
 const getInfoByFieldName = async (req, res) => {
+  const { field_name } = req.body;
   try {
     const response = await axios.get(
-      "https://api.github.com/repos/shaban00/sfbu-expressjs-app/contents/data/students.json",
+      "https://api.github.com/repos/shaban00/sfbu-cs548/contents/api/data/github_settings.json",
       {
         headers: {
           Accept: "application/vnd.github.raw+json",
@@ -37,13 +38,15 @@ const getInfoByFieldName = async (req, res) => {
       }
     );
 
-    const { data } = response;
+    const { ecomStore, timezone } = response?.data;
+    const value = ecomStore[field_name];
 
     return res.status(200).json({
-      data,
+      field_name: value,
+      timezone,
     });
   } catch (error) {
-    logger.error("Error fetching GitHub data:", error.message);
+    logger.error("Error fetching GitHub data");
     return res.status(500).json({ error: "Failed to fetch GitHub data" });
   }
 };

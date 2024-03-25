@@ -1,7 +1,7 @@
 import winston, { createLogger, format } from "winston";
 import { DateTime } from "luxon";
 
-// Define a custom log format function
+//  Custom log format function
 const customLogFormat = format.printf(({ level, message }) => {
   // Format the current timestamp using Luxon
   const timestamp = DateTime.now().toFormat("yyyy-MM-dd HH:mm:ss");
@@ -9,7 +9,7 @@ const customLogFormat = format.printf(({ level, message }) => {
   return `time: ${timestamp} level: ${level} message: ${message}`;
 });
 
-// Define the logger configuration
+// Logger configuration
 const logger = createLogger({
   level: "info", // Logging level
   format: format.json(), // Log format (JSON)
